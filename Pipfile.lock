@@ -17,6 +17,14 @@
     },
     "default": {},
     "develop": {
+        "urllib3":{
+            "hashes": [
+                "sha256:b930dd878d5a8afb066a637fbb35144fe7901e3b209d1cd4f524bd0e9deee997",
+                "sha256:3fa96cf423e6987997fc326ae8df396db2a8b7c667747d47ddd8ecba91f4a74e"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==1.26.12"
+        },
         "attrs": {
             "hashes": [
                 "sha256:2d27e3784d7a565d36ab851fe94887c5eccd6a463168875832a1be79c82828b4",

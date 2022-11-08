@@ -1,4 +1,4 @@
-docker_run = docker run --rm --mount type=bind,source="$(shell pwd)/",target=/root/ ee-data-engineering-challenge:0.0.1
+docker_run = docker run --rm --mount type=bind,source="$(pwd)/",target=/root/ ee-data-engineering-challenge:0.0.1
 
 .DEFAULT_GOAL := help
 
